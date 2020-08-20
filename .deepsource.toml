@@ -1,0 +1,13 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  module_system = "commonjs"
+  environment = ["nodejs"]
+  dependency_paths = [
+    "src/package.json",
+    "src/client/package.json"
+  ]
