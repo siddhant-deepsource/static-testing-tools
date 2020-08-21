@@ -7,7 +7,7 @@ enabled = true
   [analyzers.meta]
   module_system = "commonjs"
   environment = ["nodejs"]
-  dependency_paths = [
+  dependency_file_paths = [
     "src/package.json",
     "src/client/package.json"
   ]
